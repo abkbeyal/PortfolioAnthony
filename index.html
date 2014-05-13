@@ -7,164 +7,186 @@
         <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
+
+        <div class="body_after"></div>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-1 sidebar">
-                    <img src="img/sample.png" class="img-circle center-block personal-pic" />
-                    <h6 class="center-block">Side Blog</h6>
-
-                    <div class="spacer-lg"></div>
-
-                    <ul class="nav nav-sidebar">
-                        <li class="active"><a href="#">HOME</a> </li>
-                        <li><a href="#">BLOG</a></li>
-                        <li><a href="#">ABOUT</a></li>
-                        <li><a href="#">CONTACT</a></li>
-                        <li><a href="#">PORTFOLIO</a></li>
-                    </ul>
-
-                    <div class="spacer-lg"></div>
-
-                    SOCIAL
+                <div class="col-lg-1 sidebar" style="width:150px">
+                    <img src="img/mug.jpg" class="img-circle center-block personal-pic" />
+                    <h6 class="center-block">Anthony Beyal</h6>
+                    <h6 class="center-block" id="subh6header">Software Engineer  Web Designer</h6>
                     <hr/>
-                    <span class="fa-stack fa-lg">
-                        <i class="fa fa-square-o fa-stack-2x"></i>
-                        <i class="fa fa-twitter fa-stack-1x"></i>
-                    </span><br/>
-                    <span class="fa-stack fa-lg">
-                        <i class="fa fa-square-o fa-stack-2x"></i>
-                        <i class="fa fa-facebook fa-stack-1x"></i>
-                    </span><br/>
-                    <span class="fa-stack fa-lg">
-                        <i class="fa fa-square-o fa-stack-2x"></i>
-                        <i class="fa fa-google-plus fa-stack-1x"></i>
-                    </span><br/>
-                    <span class="fa-stack fa-lg">
-                        <i class="fa fa-square-o fa-stack-2x"></i>
-                        <i class="fa fa-linkedin fa-stack-1x"></i>
-                    </span>
-
                     <div class="spacer-md"></div>
 
-                    &copy; Daniel Stephenson
-                </div>
-                <div class="col-lg-11 content">
-                     <h3>Home Page</h3>
+                    <ul class="nav nav-sidebar">
+                        <li class="active"><a href="index.html">HOME PAGE</a> </li>
+                        <li class="active"><a href="img/workresume.pdf">RESUME'</a></li>
+                        <li class="active"><a href="#">PROJECTS</a></li>
+                        <li class="active"><a href="img/educationResume2.pdf">EDUCATION</a></li>
+                        <li class="active"><a href="#">ABOUT</a></li>
+                        <li class="active"><a href="#">CONTACT</a></li>
+                    </ul>
 
+                    <div class="spacer-md"></div>
                     <hr/>
+                    SOCIAL
+                    <!--<hr/>-->
+                    <a href="http://twitter.com/intent/tweet?screen_name=anthonybeyal">
+                        <span class="fa-stack fa-lg"><i class="fa fa-twitter-square fa-stack-2x"></i></span>
+                    </a>
+                    <a href="http://www.facebook.com/abkbeyal">
+                        <span class="fa-stack fa-lg"><i class="fa fa-facebook-square fa-stack-2x"></i></span>
+                    </a>
+                    <a href="http://plus.google.com/u/0/109316580920763040566">
+                        <span class="fa-stack fa-lg"><i class="fa fa-google-plus-square fa-stack-2x"></i></span>
+                    </a>
+                    <a href="http://www.linkedin.com/pub/anthony-beyal/11/50/50a/">
+                        <span class="fa-stack fa-lg"><i class="fa fa-linkedin-square fa-stack-2x"></i></span>
+                    </a>
+                    <div class="spacer-md"></div>
+                </div>
+                    <header id="mainheader">
+                    <a id="menu" href="#"></a>
+                    <a class="btn btn-more" href="#hello">&darr;</a>
+                    <nav class="hide">
+                        <div id="nav-menu">
+                            <ul>
+                                <li><a class="menu-close" href="#">x</a></li>
+                                <li><a id="link-about" href="#about">About</a></li>
+                                <li><a id="link-work" href="#work">Project</a></li>
+                                <li><a id="link-contact" href="#contact">Contacts</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div id="title">
+                        <h1 id="page-title">Anthony Beyal</h1>
+                        <hr class="title">
+                        <h2 class="subtitle">Developed Websites<br>Minimal-Individual-According to Time</h2>
+                    </div>
+                    </header>
+                    <div id="page">
+                    <section id="hello">
+                    <div class="inner">
+                        <div class="section-title">
+                            <h2><p class="text-center">Hello</p></h2>
+                            <hr>
+                        </div>
+                        <p >My name is Anthony Beyal. I am a web designer from Mapleton, Utah. I develop websites that combine: a modern,
+                            responsive design and current web standards. I look forward to meeting you and your project!</p>
+                    </div>
+                    </section>
 
-                    <div class="row placeholders">
-                        <div class="col-xs-6 col-sm-3 placeholder">
-                            <img src="http://placehold.it/200x200" class="img-circle"/>
-                            <h4>Label</h4>
-                            <span class="text-muted">Something else</span>
+                    <section id="about">
+                    <div class="inner">
+                        <div class="section-title">
+                            <h2><p class="text-center">About My Work</p></h2>
+                            <hr>
                         </div>
-                        <div class="col-xs-6 col-sm-3 placeholder">
-                            <img src="http://placehold.it/200x200" class="img-circle"/>
-                            <h4>Label</h4>
-                            <span class="text-muted">Something else</span>
-                        </div>
-                        <div class="col-xs-6 col-sm-3 placeholder">
-                            <img src="http://placehold.it/200x200" class="img-circle"/>
-                            <h4>Label</h4>
-                            <span class="text-muted">Something else</span>
-                        </div>
-                        <div class="col-xs-6 col-sm-3 placeholder">
-                            <img src="http://placehold.it/200x200" class="img-circle"/>
-                            <h4>Label</h4>
-                            <span class="text-muted">Something else</span>
+                        <div class="limiter clearfix">
+                            <div class="item">
+                                <div id="circle-minimal" class="circle popup-responsive"><img class="icon" src="img/chalkboard.svg" alt="Icon: Minimal Structure, blackboard with math problem 2 + 2" /></div>
+                                <div class="box">
+                                    <p class="text-center"><b>MINIMAL</b></p>
+                                    <p class="text-center">Clear, well thought out structures, without getting bored and focusing on the essentials.
+                                    I develop websites that breathe and see-through minimal design.</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div  id="circle-individual" class="circle popup-responsive"><img class="icon" src="img/eyeball.svg" alt="Icon: Distinctive Appearances, one eye" /></div>
+                                <div class="box">
+                                    <p class="text-center"><b>INDIVIDUAL</b></p>
+                                    <p class="text-center">Distinctive appearances. The view for customized content without clutter.
+                                        I develop websites, visualize the ideas and remember.</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div  id="circle-responsive" class="circle popup-responsive"><img class="icon" src="img/clock.svg" alt="Icon: Contemporary, a clock" /></div>
+                                <div class="box">
+                                    <p class="text-center"><b>ACCORDING TO TIME</b></p>
+                                    <p class="text-center">Contemporary weaving techniques and learned code. HTML, CSS,
+                                        Responsive Web design and innovative programs. I develop websites that make landing page look good.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <h2 class="sub-header">Section Title</h2>
+                    </section>
 
-                    <div class="table-responsive">
-                        <table class="table table-striped">
-                            <thead>
-                                <tr>
-                                    <th>#</th>
-                                    <th>Header</th>
-                                    <th>Header</th>
-                                    <th>Header</th>
-                                    <th>Header</th>
-                                    <th>Header</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>1,001</td>
-                                    <td>One</td>
-                                    <td>Two</td>
-                                    <td>Three</td>
-                                    <td>Four</td>
-                                    <td>Five</td>
-                                </tr>
-                                <tr>
-                                    <td>1,002</td>
-                                    <td>One</td>
-                                    <td>Two</td>
-                                    <td>Three</td>
-                                    <td>Four</td>
-                                    <td>Five</td>
-                                </tr>
-                                <tr>
-                                    <td>1,003</td>
-                                    <td>One</td>
-                                    <td>Two</td>
-                                    <td>Three</td>
-                                    <td>Four</td>
-                                    <td>Five</td>
-                                </tr>
-                                <tr>
-                                    <td>1,004</td>
-                                    <td>One</td>
-                                    <td>Two</td>
-                                    <td>Three</td>
-                                    <td>Four</td>
-                                    <td>Five</td>
-                                </tr>
-                                <tr>
-                                    <td>1,005</td>
-                                    <td>One</td>
-                                    <td>Two</td>
-                                    <td>Three</td>
-                                    <td>Four</td>
-                                    <td>Five</td>
-                                </tr>
-                                <tr>
-                                    <td>1,006</td>
-                                    <td>One</td>
-                                    <td>Two</td>
-                                    <td>Three</td>
-                                    <td>Four</td>
-                                    <td>Five</td>
-                                </tr>
-                                <tr>
-                                    <td>1,007</td>
-                                    <td>One</td>
-                                    <td>Two</td>
-                                    <td>Three</td>
-                                    <td>Four</td>
-                                    <td>Five</td>
-                                </tr>
-                                <tr>
-                                    <td>1,008</td>
-                                    <td>One</td>
-                                    <td>Two</td>
-                                    <td>Three</td>
-                                    <td>Four</td>
-                                    <td>Five</td>
-                                </tr>
-                                <tr>
-                                    <td>1,009</td>
-                                    <td>One</td>
-                                    <td>Two</td>
-                                    <td>Three</td>
-                                    <td>Four</td>
-                                    <td>Five</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                    <section id="work">
+                    <div class="inner center">
+                        <div class="section-title">
+                            <h2>Projects</h2>
+                            <hr>
+                        </div>
+                        <div class="project">
+                            <div class="mask">
+                                <h3>Portfolio</h3>
+                                <p>Best stuff </p>
+                                <p>Portfolio Site.<br>Web Design <a href="localhost:8000/porfolio/index.html"></a></p>
+                                <p><a class="btn-project" href="http://www.getbootstrap.com"></a></p>
+                            </div>
+                            <img class="projectimg" src="img/byucougs.jpeg" alt="Build: Project www.byucougers.com" />
+                        </div>
+                        <hr>
+                        <div class="project">
+                            <div class="mask">
+                                <h3>2nd Project</h3>
+                                <p>Something better.</p>
+                                <p>Navajo site<br>Go Navajo <a href="http://www.navajotimes.com">yeetaahee</a></p>
+                                <p><a class="btn-project" href="http://www.getbootstrap.com"></a></p>
+                            </div>
+                            <img class="projectimg" src="img/Navajotimes.png" alt="Build: Project www.navajotimes.com" />
+                        </div>
+                        <hr>
+                        <div class="project">
+                            <div class="mask">
+                                <h3>3nd Project</h3>
+                                <p>Best something.</p>
+                                <!--<p><a class="btn-project" href="http://www.melinamoersdorf.de"></a></p>-->
+                            </div>
+                            <!--<img class="projectimg" src="projects/project-moersdorf.jpg" alt="Bild: Projekt www.melinamoersdorf.de" />-->
+                        </div>
+                        <hr>
+                        <div class="project">
+                            <div class="mask">
+                                <h3>4nd Project</h3>
+                                <p>Awesome something.</p>
+                                <!--<p><a class="btn-project" href="http://www.melinamoersdorf.de"></a></p>-->
+                            </div>
+                            <!--<img class="projectimg" src="projects/project-moersdorf.jpg" alt="Bild: Projekt www.melinamoersdorf.de" />-->
+                        </div>
+                        <hr>
+                   </div>
+
+                    </section>
+                    <section id="skills">
+                        <div class="inner">
+                            <div class="section-title">
+                                <h2>What I can do</h2>
+                                <hr>
+                            </div>
+                            <p>I am a passionate front-end apprentice developer with a good eye for the latest trends and harmonious design.</p>
+                            <!--<div class="skill"><div class="progress progress-text"><p>Text</p></div></div>-->
+                            <div class="skill"><div class="progress progress-text"><p>Text</p></div></div>
+                            <div class="skill"><div class="progress progress-html"><p>HTML</p></div></div>
+                            <div class="skill"><div class="progress progress-css"><p>CSS</p></div></div>
+                            <div class="skill"><div class="progress progress-webdesign"><p>Webdesign</p></div></div>
+                            <div class="skill"><div class="progress progress-django"><p>Django</p></div></div>
+                            <div class="skill"><div class="progress progress-php"><p>PHP</p></div></div>
+                            <div class="skill"><div class="progress progress-csharp"><p>C#</p></div></div>
+                        </div>
+                    </section>
+                    <section id="contact">
+                        <div class="inner center">
+                            <div class="section-title">
+                                <h2>Get in touch with me...</h2>
+                                <hr>
+                            </div>
+                            <p>You want to work with me? Then say hello and tell me about your projects or ideas briefly.</p>
+                            <address>
+                                <p><a href="mailto:abkbeyal@yahoo.com?Subject=Contact you from your Porfolio" target="_top">Send email to Anthony</a> </p>
+                            </address>
+                        </div>
+                    </section>
                 </div>
             </div>
         </div>
